@@ -21,9 +21,17 @@ STAGES = [
      /___\\ 
      (o o) 
      """,
-     # Stage 3: Snowman completely melted
+     # Stage 3: only the top of the head left
      """
       ___  
      /___\\ 
+     """,
+     # Stage 4: only a little snows left
+     """
+      ___  
+     """,
+     # Stage 5: Snowman completely melted
+     """
+      ___  
      """
  ]
