@@ -22,7 +22,9 @@ def display_game_state(mistakes, secret_word, guessed_letters):
             display_word += letter + " "
         else:
             display_word += "_ "
-    print(f"Word: {display_word}\n")
+    print(f"Word: {display_word}")
+    print(f"Guessed letters: {', '.join(sorted(guessed_letters))}")
+    print(f"Mistakes left: {(len(STAGES) - 1) - mistakes}\n")
 
 
 def play_game():
@@ -42,7 +44,7 @@ def play_game():
             return
 
         # Get user guess
-        guess = input("Guess a letter: ").lower()
+        guess = input("Guess a letter: ").lower().strip()
 
         # Validate input
         if guess in guessed_letters:
