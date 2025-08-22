@@ -32,6 +32,6 @@ STAGES = [
      """,
      # Stage 5: Snowman completely melted
      """
-      ___  
+       
      """
  ]
